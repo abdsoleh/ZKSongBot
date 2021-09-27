@@ -13,17 +13,14 @@ pm_start_text = """
 
 Send me /help for know my commands.
 
-➟ <b>Mαde by ▷ @ZauteKm</b>
+Mαde by😎 [@sparkysunny](https://t.me/sparkysunny/604)
 """
 
 help_text = """
 <b><u>Helpful Commands</u></b>
 - /song <song name>: Download songs via Youtube
-- /saavn <song name>: Download songs via JioSaavn
-- /deezer <song name>: Download songs via Deezer
-- Send youtube url to my pm for download it on audio format
 
-➟ <b>Mαde by ▷ @ZauteKm</b>
+Mαde by😎 [@sparkysunny](https://t.me/sparkysunny/604)
 """
 
 @app.on_message(filters.command("start"))
@@ -35,14 +32,14 @@ async def start(client, message):
         btn = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-                    InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6')
+                    InlineKeyboardButton('My group💗', url='https://t.me/animefan_club777'),
+                    InlineKeyboardButton('My channel💗', url='https://t.me/moviesebseriesAnimes')
                   ],[
-                    InlineKeyboardButton('🙄 Source', url='https://t.me/iZaute/7'),
-                    InlineKeyboardButton('Bot Lists 🤖', url='https://t.me/iZaute/8'),
-                    InlineKeyboardButton('Music 👨‍🎤', url='https://t.me/joinchat/7gSUxv6vgQE3M2Fl')
+                    InlineKeyboardButton('Owner', url='https://t.me/cheater_01_02/604'),
+                    InlineKeyboardButton('Helper1', url='https://t.me/Shoto_GirlFriend_777/604'),
+                    InlineKeyboardButton('Helper2', url='https://t.me/Mochi875/604')
                   ],[
-                    InlineKeyboardButton('✨ Subscribe Now YouTube ✨', url='https://youtube.com/playlist?list=PLzkiTywVmsSfmhaDdWNZ5PRmmMKGTIxPJ')
+                    InlineKeyboardButton('✨Anime Wallpaper✨', url='https://t.me/Todoroki_Shoto_777')
                 ]
             ]
         )
