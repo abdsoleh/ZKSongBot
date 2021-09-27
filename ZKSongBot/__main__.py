@@ -19,8 +19,10 @@ Mαde by😎 [@sparkysunny](https://t.me/sparkysunny/604)
 help_text = """
 <b><u>Helpful Commands</u></b>
 - /song <song name>: Download songs via Youtube
+- /saavn : Download songs via JioSaavn
+- /deezer : Download songs via Deezer
 
-Mαde by😎 [@sparkysunny](https://t.me/sparkysunny/604)
+Mαde by😎 @sparkysunny
 """
 
 @app.on_message(filters.command("start"))
